@@ -1,0 +1,16 @@
+{
+  "name": "fullstack-portfolio-website",
+  "version": "1.0.0",
+  "description": "A modern fullstack portfolio website (static frontend + Vercel serverless API) deployed via Vercel with a Git-based CI/CD pipeline.",
+  "private": true,
+  "scripts": {
+    "dev": "node dev-server.js",
+    "vercel-dev": "vercel dev",
+    "lint": "node -e \"['api/contact.js','api/projects.js','dev-server.js'].forEach(f => require('child_process').execSync('node --check ' + f, {stdio:'inherit'}))\"",
+    "test": "node tests/api.test.js"
+  },
+  "engines": {
+    "node": ">=18.x"
+  },
+  "license": "MIT"
+}
