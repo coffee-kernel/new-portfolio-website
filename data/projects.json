@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "AI Recommendation Engine for Risk Platform",
+    "description": "Designed and implemented an AI-driven recommendation engine that surfaces risk mitigation suggestions in real time, cutting manual triage effort for analysts.",
+    "tags": ["Angular", "Node.js", "PostgreSQL", "LLM Integration"],
+    "image": "assets/images/project-1.svg",
+    "liveUrl": "",
+    "repoUrl": "",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "Automated CI/CD Pipeline Hardening",
+    "description": "Rebuilt Azure DevOps pipelines with security gates, CSP header remediation, and automated release tagging to streamline safe, auditable deployments.",
+    "tags": ["Azure DevOps", "CI/CD", "Security", ".NET"],
+    "image": "assets/images/project-2.svg",
+    "liveUrl": "",
+    "repoUrl": "",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "Database Migration Toolkit",
+    "description": "Built transactional PostgreSQL migration scripts with conflict-safe bulk updates, resolving primary key violations across multi-table risk schemas.",
+    "tags": ["PostgreSQL", "SQL", "Automation"],
+    "image": "assets/images/project-3.svg",
+    "liveUrl": "",
+    "repoUrl": "",
+    "featured": true
+  },
+  {
+    "id": 4,
+    "title": "Fullstack Portfolio Website",
+    "description": "A modern, responsive portfolio site with a serverless API backend, deployed on Vercel with a Git-based CI/CD pipeline.",
+    "tags": ["HTML/CSS/JS", "Vercel Functions", "GitHub Actions"],
+    "image": "assets/images/project-4.svg",
+    "liveUrl": "",
+    "repoUrl": "",
+    "featured": false
+  }
+]
