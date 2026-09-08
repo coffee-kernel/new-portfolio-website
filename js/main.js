@@ -113,6 +113,7 @@
   const phrases = [
     'Full Stack LLM Development Analyst',
     'Angular & .NET Engineer',
+    'Python Developer',
     'AI-Enabled App Builder',
     'CI/CD & Cloud Enthusiast',
   ];
