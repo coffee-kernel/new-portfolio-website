@@ -3,7 +3,7 @@
     "id": 1,
     "title": "AI Recommendation Engine for Risk Platform",
     "description": "Designed and implemented an AI-driven recommendation engine that surfaces risk mitigation suggestions in real time, cutting manual triage effort for analysts.",
-    "tags": ["Angular", "Node.js", "PostgreSQL", "LLM Integration"],
+    "tags": ["Angular", "C# .NET", "PostgreSQL", "LLM Integration", "AWS"],
     "image": "assets/images/project-1.svg",
     "liveUrl": "",
     "repoUrl": "",
@@ -31,10 +31,30 @@
   },
   {
     "id": 4,
-    "title": "Fullstack Portfolio Website",
-    "description": "A modern, responsive portfolio site with a serverless API backend, deployed on Vercel with a Git-based CI/CD pipeline.",
-    "tags": ["HTML/CSS/JS", "Vercel Functions", "GitHub Actions"],
+    "title": "Data Load Automation",
+    "description": "Built automated data load processes with serverless functions and CI/CD integration for efficient and reliable data handling.",
+    "tags": ["Python", "AWS", "PostgreSQL"],
     "image": "assets/images/project-4.svg",
+    "liveUrl": "",
+    "repoUrl": "",
+    "featured": true
+  },
+  {
+    "id": 5,
+    "title": "Automated Defect Inspection",
+    "description": "Developed an automated defect inspection system using computer vision and machine learning to identify and classify defects in real time.",
+    "tags": ["Python", "MS SQL", "Computer Vision", "Machine Learning"],
+    "image": "assets/images/project-5.svg",
+    "liveUrl": "",
+    "repoUrl": "",
+    "featured": true
+  },
+    {
+    "id": 6,
+    "title": "Data Logging Application",
+    "description": "Created a data logging application to efficiently capture, store, and manage large volumes of data with real-time monitoring and reporting capabilities.",
+    "tags": ["PHP", "Bootstrap", "MS SQL", "Data Logging", "Automation"],
+    "image": "assets/images/project-6.svg",
     "liveUrl": "",
     "repoUrl": "",
     "featured": false

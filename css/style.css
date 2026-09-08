@@ -534,6 +534,8 @@ img { max-width: 100%; display: block; }
 .form-status { margin-top: 14px; font-size: 0.9rem; min-height: 1.2em; }
 .form-status.success { color: #34d399; }
 .form-status.error { color: #f87171; }
+.form-consent { margin: 14px 0 0; font-size: 0.78rem; line-height: 1.5; }
+.form-consent a, .policy-page a { color: var(--grad-mid); text-decoration: underline; text-underline-offset: 2px; }
 
 .contact-info { display: flex; flex-direction: column; gap: 24px; }
 .info-item h3 { font-size: 1rem; margin-bottom: 4px; }
@@ -553,7 +555,24 @@ img { max-width: 100%; display: block; }
   font-size: 0.85rem;
   color: var(--text-muted);
 }
+.footer-links { display: flex; align-items: center; flex-wrap: wrap; gap: 14px; }
+.footer-links a { color: var(--text-muted); }
+.footer-links a:hover, .footer-links a:focus-visible { color: var(--text); }
 .back-to-top { color: var(--grad-mid); font-weight: 600; }
+
+/* ---------------- Policy pages ---------------- */
+.policy-page { min-height: 100vh; padding: 150px 0 80px; }
+.policy-page .section-tag { margin-bottom: 10px; }
+.policy-page h1 { max-width: 760px; font-size: clamp(2.3rem, 6vw, 4rem); line-height: 1.08; margin-bottom: 16px; }
+.policy-page .policy-updated { color: var(--text-muted); margin-bottom: 48px; }
+.policy-content { max-width: 780px; }
+.policy-content h2 { font-size: 1.35rem; margin: 34px 0 10px; }
+.policy-content h2:first-child { margin-top: 0; }
+.policy-content p, .policy-content li { color: var(--text-muted); }
+.policy-content ul { list-style: disc; padding-left: 1.25rem; margin: 0 0 1rem; }
+.policy-content li { margin-bottom: 8px; }
+.policy-content strong { color: var(--text); }
+.policy-back { display: inline-block; margin-top: 34px; color: var(--grad-mid); font-weight: 600; }
 
 /* ---------------- Responsive ---------------- */
 @media (max-width: 860px) {
@@ -569,7 +588,12 @@ img { max-width: 100%; display: block; }
     padding: 12px 18px;
   }
 
-  .nav-toggle { display: flex; }
+  .logo { margin-right: auto; }
+  .nav-toggle {
+    display: flex;
+    margin-left: auto;
+  }
+  .theme-toggle { margin-left: 8px; flex-shrink: 0; }
   .nav-links {
     position: fixed;
     top: 68px;
@@ -734,6 +758,8 @@ img { max-width: 100%; display: block; }
     align-items: flex-start;
     flex-direction: column;
   }
+
+  .footer-links { gap: 10px 14px; }
 }
 
 @media (max-width: 380px) {
